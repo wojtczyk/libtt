@@ -1,0 +1,17 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.4)
+
+PROJECT(LIBTRAX CXX C)
+
+INCLUDE(CPack)
+
+# Set some package variables which will also be expanded in config.h
+SET(PACKAGE "libtt")
+SET(VERSION 0.1)
+
+SET(PACKAGE_NAME ${PACKAGE})
+SET(PACKAGE_VERSION ${VERSION})
+SET(PACKAGE_BUGREPORT wojtczyk@in.tum.de)
+SET(PACKAGE_STRING "${PACKAGE_NAME} ${PACKAGE_VERSION} - the tracking-technologies (tt) library")
+SET(PACKAGE_TARNAME ${PACKAGE})
+
+ADD_SUBDIRECTORY(src)
