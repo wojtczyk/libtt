@@ -1,5 +1,5 @@
-#ifndef TRAX_INPUT_INPUTDEVICE_H
-#define TRAX_INPUT_INPUTDEVICE_H
+#ifndef TT_INPUT_INPUTDEVICE_H
+#define TT_INPUT_INPUTDEVICE_H
 
 namespace tt
 {
@@ -11,7 +11,7 @@ namespace input
 {
 
 /**
- * @class InputDevice InputDevice.h trax/input/InputDevice.h
+ * @class InputDevice InputDevice.h tt/input/InputDevice.h
  * @brief Base class for all input devices.
  * @author Martin Wojtczyk <wojtczyk@in.tum.de>
  */
@@ -24,6 +24,6 @@ public:
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt
 
-#endif /*TRAX_INPUT_INPUTDEVICE_H*/
+#endif /*TT_INPUT_INPUTDEVICE_H*/

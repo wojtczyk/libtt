@@ -1,5 +1,5 @@
-#ifndef TRAX_INPUT_MOVIEPLAYER_H
-#define TRAX_INPUT_MOVIEPLAYER_H
+#ifndef TT_INPUT_MOVIEPLAYER_H
+#define TT_INPUT_MOVIEPLAYER_H
 
 #include <cv.h>
 #include <highgui.h>
@@ -16,7 +16,7 @@ namespace input
 {
 	
 /**
- * @class MoviePlayer MoviePlayer.h trax/input/MoviePlayer.h
+ * @class MoviePlayer MoviePlayer.h tt/input/MoviePlayer.h
  * @brief class to capture images from a video file
  * @author Thomas Friedlhuber <friedlhu@in.tum.de>
  **/
@@ -147,6 +147,6 @@ private:
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt
 
-#endif /*TRAX_INPUT_MOVIEPLAYER_H*/
+#endif /*TT_INPUT_MOVIEPLAYER_H*/

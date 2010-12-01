@@ -245,4 +245,4 @@ void Image::updateOpencvHeader()
 
 } // namespace ds
 
-} // namespace trax
+} // namespace tt

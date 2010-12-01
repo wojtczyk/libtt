@@ -210,4 +210,4 @@ void MoviePlayer::setSpeed(double factor)
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt

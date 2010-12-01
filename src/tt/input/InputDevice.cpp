@@ -21,4 +21,4 @@ InputDevice::~InputDevice()
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt

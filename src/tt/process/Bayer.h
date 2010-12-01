@@ -1,5 +1,5 @@
-#ifndef TRAX_PROCESS_BAYER_H
-#define TRAX_PROCESS_BAYER_H
+#ifndef TT_PROCESS_BAYER_H
+#define TT_PROCESS_BAYER_H
 
 #include <tt/ds/Image.h>
 
@@ -31,6 +31,6 @@ public:
 
 } // namespace process
 
-} // namespace trax
+} // namespace tt
 
-#endif /*TRAX_PROCESS_BAYER_H*/
+#endif /*TT_PROCESS_BAYER_H*/

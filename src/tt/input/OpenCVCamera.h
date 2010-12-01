@@ -1,5 +1,5 @@
-#ifndef TRAX_INPUT_OPENCVCAMERA_H
-#define TRAX_INPUT_OPENCVCAMERA_H
+#ifndef TT_INPUT_OPENCVCAMERA_H
+#define TT_INPUT_OPENCVCAMERA_H
 
 #include "ImageDevice.h"
 
@@ -10,7 +10,7 @@ namespace input
 {
 
 /**
- * @class OpenCVCamera OpenCVCamera.h trax/input/OpenCVCameraCamera.h
+ * @class OpenCVCamera OpenCVCamera.h tt/input/OpenCVCameraCamera.h
  * @brief Adapter class to interface the cameras supported in OpenCV.
  * @author Martin Wojtczyk <wojtczyk@in.tum.de>
  * 
@@ -39,4 +39,4 @@ public:
 
 }
 
-#endif /*TRAX_INPUT_OPENCVCAMERA_H*/
+#endif /*TT_INPUT_OPENCVCAMERA_H*/

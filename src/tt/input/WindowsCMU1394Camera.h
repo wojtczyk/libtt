@@ -1,5 +1,5 @@
-#ifndef TRAX_INPUT_WINDOWSCMU1394CAMERA_H
-#define TRAX_INPUT_WINDOWSCMU1394CAMERA_H
+#ifndef TT_INPUT_WINDOWSCMU1394CAMERA_H
+#define TT_INPUT_WINDOWSCMU1394CAMERA_H
 
 #ifdef WIN32 // Build WindowsCMU1394Camera only if compiled on a Win32 platform
 
@@ -15,7 +15,7 @@ namespace input
 {
 
 /**
- * @class WindowsCMU1394Camera WindowsCMU1394Camera.h trax/input/WindowsCMU1394Camera.h
+ * @class WindowsCMU1394Camera WindowsCMU1394Camera.h tt/input/WindowsCMU1394Camera.h
  * @brief Concrete class implementing the Camera interface for Firewire cameras.
  * @author Martin Wojtczyk <wojtczyk@in.tum.de>
  * 
@@ -77,8 +77,8 @@ public:
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt
 
 #endif // WIN32
 
-#endif /*TRAX_INPUT_WINDOWSCMU1394CAMERA_H*/
+#endif /*TT_INPUT_WINDOWSCMU1394CAMERA_H*/

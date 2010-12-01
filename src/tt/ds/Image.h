@@ -1,5 +1,5 @@
-#ifndef TRAX_DS_IMAGE_H
-#define TRAX_DS_IMAGE_H
+#ifndef TT_DS_IMAGE_H
+#define TT_DS_IMAGE_H
 
 #include <string>
 #include <cv.h>
@@ -8,13 +8,13 @@ namespace tt
 {
 
 /**
- * @brief Namespace for all trax data structures.
+ * @brief Namespace for all tt data structures.
  */
 namespace ds
 {
 
 /**
- * @class Image Image.h trax/ds/Image.h
+ * @class Image Image.h tt/ds/Image.h
  * @brief Class for Image Storage
  * @author Martin Wojtczyk <wojtczyk@in.tum.de>
  * 
@@ -193,6 +193,6 @@ protected:
 
 } // namespace ds
 
-} // namespace trax
+} // namespace tt
 
-#endif /*TRAX_DS_IMAGE_H*/
+#endif /*TT_DS_IMAGE_H*/

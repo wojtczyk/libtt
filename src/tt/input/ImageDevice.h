@@ -1,5 +1,5 @@
-#ifndef TRAX_INPUT_IMAGEDEVICE_H
-#define TRAX_INPUT_IMAGEDEVICE_H
+#ifndef TT_INPUT_IMAGEDEVICE_H
+#define TT_INPUT_IMAGEDEVICE_H
 
 #include <exception>
 #include <stdexcept>
@@ -12,7 +12,7 @@ namespace input
 {
 
 /**
- * @class ImageDevice ImageDevice.h trax/input/ImageDevice.h
+ * @class ImageDevice ImageDevice.h tt/input/ImageDevice.h
  * @brief Abstract base class for image devices.
  * @author Martin Wojtczyk <wojtczyk@in.tum.de>
  * 
@@ -38,6 +38,6 @@ public:
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt
 
-#endif /*TRAX_INPUT_IMAGEDEVICE_H*/
+#endif /*TT_INPUT_IMAGEDEVICE_H*/

@@ -27,5 +27,5 @@ ImageDevice::~ImageDevice()
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt
 

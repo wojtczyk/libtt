@@ -753,6 +753,6 @@ void LinuxDC1394Camera::selectCamera(int index)
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt
 
 #endif // LINUX

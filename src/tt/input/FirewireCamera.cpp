@@ -305,4 +305,4 @@ process::Bayer::Filter FirewireCamera::getBayerFilter() const
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt

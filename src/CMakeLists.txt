@@ -6,7 +6,7 @@ PROJECT(SRC)
 #ENDIF(${CMAKE_PROJECT_NAME} STREQUAL "Project")
 
 # search this modules directory additionally/first
-SET(CMAKE_MODULE_PATH "${LIBTRAX_SOURCE_DIR}/Modules")
+SET(CMAKE_MODULE_PATH "${LIBTT_SOURCE_DIR}/Modules")
 
 # include basic cmake checks and definitions
 #INCLUDE(LibraryCommonConfig)

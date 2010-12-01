@@ -16,4 +16,4 @@ OutputDevice::~OutputDevice()
 
 } // namespace output
 
-} // namespace trax
+} // namespace tt

@@ -392,6 +392,6 @@ void WindowsCMU1394Camera::selectCamera(int index)
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt
 
 #endif // WIN32

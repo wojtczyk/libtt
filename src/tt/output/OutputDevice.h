@@ -1,5 +1,5 @@
-#ifndef TRAX_OUTPUT_OUTPUTDEVICE_H
-#define TRAX_OUTPUT_OUTPUTDEVICE_H
+#ifndef TT_OUTPUT_OUTPUTDEVICE_H
+#define TT_OUTPUT_OUTPUTDEVICE_H
 
 namespace tt
 {
@@ -19,6 +19,6 @@ public:
 
 } // namespace output
 
-} // namespace trax
+} // namespace tt
 
-#endif /*TRAX_OUTPUT_OUTPUTDEVICE_H*/
+#endif /*TT_OUTPUT_OUTPUTDEVICE_H*/

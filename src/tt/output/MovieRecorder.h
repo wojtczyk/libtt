@@ -1,5 +1,5 @@
-#ifndef TRAX_OUTPUT_MOVIERECORDER_H
-#define TRAX_OUTPUT_MOVIERECORDER_H
+#ifndef TT_OUTPUT_MOVIERECORDER_H
+#define TT_OUTPUT_MOVIERECORDER_H
 
 #include "OutputDevice.h"
 
@@ -18,6 +18,6 @@ public:
 
 } // namespace output
 
-} // namespace trax
+} // namespace tt
 
-#endif /*TRAX_OUTPUT_MOVIERECORDER_H*/
+#endif /*TT_OUTPUT_MOVIERECORDER_H*/

@@ -60,4 +60,4 @@ const int OpenCVCamera::getImageHeight() const
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt

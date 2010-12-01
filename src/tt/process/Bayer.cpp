@@ -128,4 +128,4 @@ void Bayer::deBayer(tracking::cvdata::Image* source, tracking::cvdata::Image* de
 
 } // namespace process
 
-} // namespace trax
+} // namespace tt

@@ -1,5 +1,5 @@
-#ifndef TRAX_INPUT_FIREWIRECAMERA_H
-#define TRAX_INPUT_FIREWIRECAMERA_H
+#ifndef TT_INPUT_FIREWIRECAMERA_H
+#define TT_INPUT_FIREWIRECAMERA_H
 
 #include "ImageDevice.h"
 #include <tt/process/Bayer.h>
@@ -11,7 +11,7 @@ namespace input
 {
 
 /**
- * @class FirewireCamera FirewireCamera.h trax/input/FirewireCamera.h
+ * @class FirewireCamera FirewireCamera.h tt/input/FirewireCamera.h
  * @brief Interface class with factory functions for Firewire cameras.
  * @author Martin Wojtczyk <wojtczyk@in.tum.de>
  * 
@@ -239,6 +239,6 @@ public:
 
 } // namespace input
 
-} // namespace trax
+} // namespace tt
 
-#endif /*TRAX_INPUT_FIREWIRECAMERA_H*/
+#endif /*TT_INPUT_FIREWIRECAMERA_H*/
